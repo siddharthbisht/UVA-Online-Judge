@@ -22,6 +22,7 @@ bool check(string crypt_str, string dict_str){
     return true;
 }
 
+
 void dfs(int depth, vector<string>dict, vector<string>crypt, string input){
     if(hassol) return;
     if(depth==crypt.size()){
